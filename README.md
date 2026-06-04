@@ -208,7 +208,7 @@ datos_f_copia['color_alerta_veneno'] = (datos_f_copia['stalk-color-above-ring'].
 # Convertimos a 1 (Peligro, poisonous) y 0 (Normal)
 datos_f_copia['color_alerta_veneno'] = datos_f_copia['color_alerta_veneno'].astype(int)
 
-Ahora bien, esta columna se convierte en un excelente indicador de "venenoso", pero no de comestible, ya que hay hongos venenosos y comestibles que comparten la misma colocacion de pie bajo y sobre anillo. 
+Ahora bien, esta columna se convierte en un excelente indicador de "venenoso", pero no de comestible, ya que hay hongos venenosos y comestibles que comparten la misma coloración de pie bajo y sobre anillo. 
 
 https://www.kaggle.com/code/nethanael/hongos-clasificacion/input
 
