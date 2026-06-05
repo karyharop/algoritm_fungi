@@ -12,7 +12,7 @@ st.write("¡WELCOME! Selecciona las características del hongo para que el algor
 
 st.divider() # Una línea visual muy elegante para separar secciones
 
-# 3. Creamos los menús desplegables para el usuario
+# 3. Creamos los menús desplegables para el usuario (aquí es donde hay que agregar las 10 características)
 olor_usuario = st.selectbox("¿A qué huele el hongo?", ["Almendras", "Anís", "Pescado", "No huele"])
 forma_sombrero = st.selectbox("Forma del sombrero:", ["Campana", "Plano", "Convexo"])
 color_laminas = st.selectbox("Color de las láminas:", ["Morado", "Amarillo", "Blanco", "Rosa"])
