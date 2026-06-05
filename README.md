@@ -212,7 +212,7 @@ Ahora bien, esta columna se convierte en un excelente indicador de "venenoso", p
 
 https://www.kaggle.com/code/nethanael/hongos-clasificacion/input
 
-# Vamos a ver la precisión de tu nueva variable. Esto tiene como objetivo simplemente saber si la columna creada con las comunnas 14 y 15, realmente me predice que al menos el 2% de los hongos será si o si, venenoso, de acuerdo al color del pie. (Esto cuando tenga velo)
+# Vamos a ver la precisión de tu nueva variable. Esto tiene como objetivo simplemente saber si la columna creada con las columnas 14 y 15, realmente me predice que al menos el 2% de los hongos será si o si, venenoso, de acuerdo al color del pie. (Esto cuando tenga velo)
 De esta forma puedo agrupar mi columna en montones, en este caso los "e" y los "p".
 
 counts = datos_f_copia.groupby('color_pie_alerta_veneno')['class'].value_counts(normalize=True) * 100
@@ -222,6 +222,6 @@ print(counts)
 
 1.- copia limpia para comenzar el machine learning
 
-2.- 
+2.- Arbol de decisión que entrega un porcentaje de aprendizaje del 99,94%
 
 
